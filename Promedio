@@ -1,1 +1,4 @@
-
+//Este ejercicio debe permitir ingresar una cantidad indefinida de
+números y luego calcular el promedio. El programa debe finalizar
+cuando el usuario ingrese un valor negativo, el mismo no se debe
+incluir en el promedio.
