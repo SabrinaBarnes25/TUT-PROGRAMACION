@@ -1,16 +1,16 @@
 //Este ejercicio debe solicitar dos números y la operación que desea
 realizar (suma, resta, multiplicación o división). Luego, calculará y
 mostrará el resultado correspondiente según la operación
-seleccionada.
+seleccionada.//
 
 Algoritmo calculadora 
-	Definir Numero1, Numero2, Resultado Como Entero
-	Definir Operacion Como Logico
+	Definir Numero1, Numero2, Resultado Como real
+	Definir Operacion Como cadena
 	
 	Escribir "Ingrese Numero1 y Numero 2"
 	Leer Numero1, Numero2 
-	Escribir "Ingrese Operacion"
-	Leer suma, resta,multiplicacion, division
+	Escribir "Ingrese Operacion que desea realizar (suma, resta,multiplicacion, division):"
+	Leer Operacion
 	Si Operacion=suma Entonces
 		Resultado <- Numero1 + numero2
 		Escribir "El resultado de la suma es" Resultado
@@ -30,6 +30,8 @@ Algoritmo calculadora
 					SiNo
 						Escribir "Error: No se puede dividir por cero. Ingresar otro valor" 
 					FinSi
+				SiNo
+					Escribir "La operacion no es valida, intentar con otra operación"			
 				FinSi
 			FinSi
 		FinSi
