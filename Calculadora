@@ -9,25 +9,31 @@ Algoritmo calculadora
 	
 	Escribir "Ingrese Numero1 y Numero 2"
 	Leer Numero1, Numero2 
+	
 	Escribir "Ingrese Operacion que desea realizar (suma, resta,multiplicacion, division):"
 	Leer Operacion
-	Si Operacion=suma Entonces
+	
+	Si Operacion= "suma" Entonces
 		Resultado <- Numero1 + numero2
-		Escribir "El resultado de la suma es" Resultado
+		Escribir "El resultado de la suma es", Resultado
 	SiNo
-		Si Operacion=resta Entonces
+		
+		Si Operacion= "resta" Entonces
 			Resultado <- Numero1 - numero2
-			Escribir "El resultado de la resta es" Resultado
+			Escribir "El resultado de la resta es", Resultado
 		Sino 
-			Si Operacion=multiplicacion Entonces
+			
+			Si Operacion= "multiplicacion" Entonces
 				Resultado <- Numero1 * numero2
-				Escribir "El resultado de la multiplicacion es" Resultado
+				Escribir "El resultado de la multiplicacion es", Resultado
 			Sino 
-				Si Operacion=division Entonces
+				
+				Si Operacion= "division" Entonces
 					Si numero2<>0 Entonces
 						Resultado <- Numero1 / numero2
-						Escribir "El resultado de la division es" Resultado 
+						Escribir "El resultado de la division es", Resultado 
 					SiNo
+						
 						Escribir "Error: No se puede dividir por cero. Ingresar otro valor" 
 					FinSi
 				SiNo
@@ -35,7 +41,4 @@ Algoritmo calculadora
 				FinSi
 			FinSi
 		FinSi
-		
 	FinSi
-	
-FinAlgoritmo
