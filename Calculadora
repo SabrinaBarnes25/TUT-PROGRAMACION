@@ -3,3 +3,37 @@ realizar (suma, resta, multiplicación o división). Luego, calculará y
 mostrará el resultado correspondiente según la operación
 seleccionada.
 
+Algoritmo calculadora 
+	Definir Numero1, Numero2, Resultado Como Entero
+	Definir Operacion Como Logico
+	
+	Escribir "Ingrese Numero1 y Numero 2"
+	Leer Numero1, Numero2 
+	Escribir "Ingrese Operacion"
+	Leer suma, resta,multiplicacion, division
+	Si Operacion=suma Entonces
+		Resultado <- Numero1 + numero2
+		Escribir "El resultado de la suma es" Resultado
+	SiNo
+		Si Operacion=resta Entonces
+			Resultado <- Numero1 - numero2
+			Escribir "El resultado de la resta es" Resultado
+		Sino 
+			Si Operacion=multiplicacion Entonces
+				Resultado <- Numero1 * numero2
+				Escribir "El resultado de la multiplicacion es" Resultado
+			Sino 
+				Si Operacion=division Entonces
+					Si numero2<>0 Entonces
+						Resultado <- Numero1 / numero2
+						Escribir "El resultado de la division es" Resultado 
+					SiNo
+						Escribir "Error: No se puede dividir por cero. Ingresar otro valor" 
+					FinSi
+				FinSi
+			FinSi
+		FinSi
+		
+	FinSi
+	
+FinAlgoritmo
