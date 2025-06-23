@@ -1,2 +1,16 @@
 //Escribe un programa que calcule el área de un triángulo dados su
 base y su altura. (Datos ingresados por el usuario)
+
+Algoritmo area_de_triangulo
+	Definir base, altura, area Como Real
+		
+		Escribir "Ingresar la base del triángulo:"
+		Leer base
+		
+		Escribir "Ingresar la altura del triángulo:"
+		Leer altura
+		
+		area = (base * altura) / 2
+		
+		Escribir "El área del triángulo es: ", area
+FinAlgoritmo
