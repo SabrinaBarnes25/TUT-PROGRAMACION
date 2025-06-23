@@ -1,2 +1,14 @@
 //El usuario debe ingresar un número y genera una pirámide de
 números hasta llegar al número. Cada número es una fila.
+
+Algoritmo piramide
+	Definir a,b,n como entero
+	Escribir "Dame un numero"
+	leer n
+	 para a <- n hasta 1 con paso -1 hacer
+		para b <- n hasta a con paso -1 hacer
+			Escribir b sin saltar
+		FinPara
+		Escribir ""
+	FinPara
+FinAlgoritmo
