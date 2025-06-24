@@ -1,5 +1,4 @@
-//Genera la tabla de multiplicar (hasta n x 20) de un número
-ingresado por el usuario. 
+//Genera la tabla de multiplicar (hasta n x 20) de un número ingresado por el usuario. 
 
 Algoritmo promedio //Objetivo del algortimo es leer el número ingresado y mostrar por pantalla tabla de multiplicar del 1 al 20
 	Definir numero, m, resultado Como Entero //Definimos 3 variables enteras
