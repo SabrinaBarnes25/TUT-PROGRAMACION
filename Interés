@@ -2,3 +2,20 @@
 La tasa de interés se encuentra precargada en el ejercicio y debe
 ser mostrada al usuario.
 Fórmula: interés = capital * tasa * tiempo
+
+Algoritmo InteresSimple
+    Definir tasa, capital, tiempo, interes Como Real
+    
+    tasa <- 0.05  // tasa de interés precargada (5%)
+    Escribir "La tasa de interés es: ", tasa * 100, "%"
+    
+    Escribir "Ingrese el capital:"
+    Leer capital
+    
+    Escribir "Ingrese el tiempo (en años):"
+    Leer tiempo
+    
+    interes <- capital * tasa * tiempo
+    
+    Escribir "El interés simple es: ", interes
+FinAlgoritmo
