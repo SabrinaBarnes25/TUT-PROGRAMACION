@@ -12,7 +12,7 @@ Tecnicatura Universitaria en Telecomunicaciones (TUT)
 ## Materia
 Programación 
 
-## Programa utilizado
+## Programa Utilizado
 PseInt
 
 ## Descripción
