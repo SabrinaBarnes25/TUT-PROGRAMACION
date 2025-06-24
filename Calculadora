@@ -1,7 +1,4 @@
-//Este ejercicio debe solicitar dos números y la operación que desea
-realizar (suma, resta, multiplicación o división). Luego, calculará y
-mostrará el resultado correspondiente según la operación
-seleccionada.//
+//Este ejercicio debe solicitar dos números y la operación que desea realizar (suma, resta, multiplicación o división). Luego, calculará y mostrará el resultado correspondiente según la operación seleccionada.//
 
 Algoritmo calculadora 
 	Definir Numero1, Numero2, Resultado Como real //Se define variables numericas como real
@@ -42,3 +39,4 @@ Algoritmo calculadora
 			FinSi
 		FinSi
 	FinSi
+Fin Algoritmo
