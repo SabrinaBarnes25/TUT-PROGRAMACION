@@ -1,17 +1,17 @@
 Algoritmo Suma_de_Matrices
 	// Definir matrices
 	Definir MatrizA, MatrizB, MatrizSuma Como Entero
-   //MatrizA y MatrizB:ingresar· el usuario.
-  //MatrizSuma: donde se almacenar· la suma de MatrizA y MatrizB.
+   //MatrizA y MatrizB:ingresar√° el usuario.
+  //MatrizSuma: donde se almacenar√° la suma de MatrizA y MatrizB.
 	Dimension MatrizA[2,2], MatrizB[2,2], MatrizSuma[2,2]
 	
 	// Carga de valores en la primera matriz
 	Escribir "Ingrese los valores para la primera matriz:"
 	Para i <- 0 Hasta 1
 		Para j <- 0 Hasta 1
-			//Se recorre cada posiciÛn (i, j) de la matriz con dos bucles Para.
+			//Se recorre cada posici√≥n (i, j) de la matriz con dos bucles Para.
 			Escribir "MatrizA[", i, ",", j, "]: "
-			//Se solicita al usuario que ingrese un n˙mero para cada celda de MatrizA.
+			//Se solicita al usuario que ingrese un n√∫mero para cada celda de MatrizA.
 			Leer MatrizA[i,j]
 			//Se llenan las 4 posiciones: (0,0), (0,1), (1,0) y (1,1).
 		FinPara
@@ -29,9 +29,9 @@ Algoritmo Suma_de_Matrices
 	// Sumar las matrices
 	Para i <- 0 Hasta 1
 		Para j <- 0 Hasta 1
-			//En cada posiciÛn (i, j), se suman los valores de MatrizA[i,j] y MatrizB[i,j].
+			//En cada posici√≥n (i, j), se suman los valores de MatrizA[i,j] y MatrizB[i,j].
 			MatrizSuma[i,j] <- MatrizA[i,j] + MatrizB[i,j]
-			//El resultado se guarda en la posiciÛn correspondiente de MatrizSuma.
+			//El resultado se guarda en la posici√≥n correspondiente de MatrizSuma.
 		FinPara
 	FinPara
 	
@@ -40,7 +40,7 @@ Algoritmo Suma_de_Matrices
 	Para i <- 0 Hasta 1
 		Para j <- 0 Hasta 1
 			Escribir "MatrizSuma[", i, ",", j, "] = ", MatrizSuma[i,j]
-			//Se imprimen los valores de la matriz MatrizSuma, mostrando cada posiciÛn y su valor.
+			//Se imprimen los valores de la matriz MatrizSuma, mostrando cada posici√≥n y su valor.
 		FinPara
 	FinPara
 FinAlgoritmo
