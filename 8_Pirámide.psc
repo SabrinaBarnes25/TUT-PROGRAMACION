@@ -1,4 +1,4 @@
-Algoritmo piramide //El usuario debe ingresar un número y genera una pirámide de números hasta llegar al número. Cada número es una fila.
+Algoritmo piramide //El usuario debe ingresar un nÃºmero y genera una pirÃ¡mide de nÃºmeros hasta llegar al nÃºmero. Cada nÃºmero es una fila.
 	Definir a,b,n como entero //se declaran tres variables como parte de los numeros enteros 
 	Escribir "Dame un numero" //se pide que el unsuario ingrese un dato numerico
 	leer n //el dato ingresado se almacena en la variable "n"
