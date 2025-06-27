@@ -13,6 +13,6 @@ Algoritmo Invertir
 		invertida <- invertida + SubCadena(frase, i, i)
 		i <- i - 1
 	FinMientras
-	//Mientras i sea mayor a 0, invertida se leerá de forma inversa
+	//Mientras i sea mayor a 0, invertida se leerÃ¡ de forma inversa
 	Escribir "La frase original es " frase,", y invertida es " invertida
 FinAlgoritmo
